@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+
+/* your custom CSS here */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 :root {
   /* hsl (fallback color) */
   --bg-dark: hsl(336 0% 1%);
@@ -63,4 +66,5 @@ body.light {
   --warning: oklch(0.5 0.05 100);
   --success: oklch(0.5 0.05 160);
   --info: oklch(0.5 0.05 260);
+  --font-family: 'IBM Plex Mono', monospace;
 }
