@@ -82,7 +82,7 @@ export default function Hero() {
             width={300}
             height={300}
             priority
-            className="object-cover object-[center_40%] rounded-full w-[220px] h-[220px] sm:w-[320px] sm:h-[320px] transition-colors duration-300 ease-in-out"
+            className="object-cover object-[center_20%] rounded-full w-[220px] h-[220px] sm:w-[320px] sm:h-[320px] transition-colors duration-300 ease-in-out "
           />
         </div>
       </div>
