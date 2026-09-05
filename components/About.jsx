@@ -1,10 +1,5 @@
-import { IBM_Plex_Mono } from "next/font/google";
 import SectionHeading from "./SectionHeading";
-
-const ibmPlexMono = IBM_Plex_Mono({
-  weight: ["400", "500"],
-  subsets: ["latin"],
-});
+import { ibmPlexMono } from "../lib/fonts";
 
 const facts = [
   { label: "based in", value: "Tunis, Tunisia" },
@@ -16,7 +11,7 @@ const facts = [
 export default function About() {
   return (
     <section id="about" className="max-w-6xl mx-auto px-6 sm:px-10 py-24">
-      <SectionHeading tag="about" title="A bit about me" />
+      <SectionHeading tag="about" title="A bit about me" scramble />
 
       <div className="grid lg:grid-cols-[1.2fr_1fr] gap-8 items-start">
         <div className="rounded-md border border-neutral-800 bg-neutral-900/50 overflow-hidden">

@@ -37,7 +37,7 @@ const projects = [
 export default function Projects() {
   return (
     <section id="projects" className="max-w-6xl mx-auto px-6 sm:px-10 py-24">
-      <SectionHeading tag="projects" title="Things I've built" />
+      <SectionHeading tag="projects" title="Things I've built" scramble />
 
       <div className="flex flex-col gap-4">
         {projects.map((project) => (

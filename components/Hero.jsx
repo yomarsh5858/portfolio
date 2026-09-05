@@ -47,14 +47,14 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="flex flex-col-reverse sm:flex-row items-center justify-center gap-10 lg:gap-32 px-6 sm:px-10 pt-32 pb-20 max-w-10xl mx-auto"
+      className="flex flex-col-reverse sm:flex-row items-center justify-center gap-16 lg:gap-32 px-6 pt-40 lg:pt-53 sm:px-10   pb-20 max-w-6xl mx-auto"
     >
       <div className="relative flex flex-col items-start justify-center max-w-2xl">
         <span className={`text-[#62BA1B] text-sm mb-4 ${ibmPlexMono.className}`}>
           // software engineering student
         </span>
         <TypedName text="Aymen Kacem" />
-        <p className={`text-neutral-400 text-base pt-8 max-w-md leading-relaxed  ${ibmPlexMono.className}`}>
+        <p className={`text-neutral-400 text-base pt-8 max-w-md leading-relaxed ${ibmPlexMono.className}`}>
           Hi, I&apos;m Aymen, a 22-year-old software engineering student.
           I&apos;m passionate about web development and always eager to learn new technologies.
           I&apos;m a team player, motivated, and open to growth opportunities.

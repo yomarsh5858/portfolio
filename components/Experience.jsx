@@ -33,7 +33,7 @@ const timeline = [
 export default function Experience() {
   return (
     <section id="experience" className="max-w-6xl mx-auto px-6 sm:px-10 py-24">
-      <SectionHeading tag="experience" title="Where I've been" />
+      <SectionHeading tag="experience" title="Where I've been " scramble />
 
       <div className="flex flex-col">
         {timeline.map((item, index) => (
