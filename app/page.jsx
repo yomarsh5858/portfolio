@@ -1,12 +1,21 @@
-import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import About from "../components/About";
+import Projects from "../components/Projects";
+import Experience from "../components/Experience";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-[var(--bg)] ] ">
+    <main className="bg-neutral-950 min-h-screen">
       <Navbar />
       <Hero />
+      <About />
+      <Projects />
+      <Experience />
+      <Contact />
+      <Footer />
     </main>
-    
   );
 }
