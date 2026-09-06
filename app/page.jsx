@@ -5,7 +5,7 @@ import Projects from "../components/Projects";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import PixelStars from "../components/BackgroundPixelStars";
+import PixelStars from "../components/Backgroundpixelstars";
 
 export default function Home() {
   return (

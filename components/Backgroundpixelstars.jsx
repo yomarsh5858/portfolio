@@ -26,7 +26,7 @@ const percentToRegenerate = 0.15; // Percentage of stars to regenerate at each i
 const shootingStarPixelSize = 2;
 const targetFps = 16; // 16 FPS for that retro feel
 
-export const BackgroundPixelStars = memo(
+export const PixelStars = memo(
   () => {
     const canvasRef = useRef(null);
     const animationFrameRef = useRef(null);
@@ -337,4 +337,4 @@ export const BackgroundPixelStars = memo(
   () => true,
 );
 
-export default BackgroundPixelStars;
+export default PixelStars;
